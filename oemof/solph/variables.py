@@ -130,7 +130,7 @@ def set_bounds(model, block, side='output'):
                 exist_ub_out = True
             # ** Constant bound
             else:
-                # If ub_out (time depended bound9 does not exist, create a list
+                # If ub_out (time depended bound) does not exist, create a list
                 # with the same value. Use out_max for the upper bound of the
                 # variable.
                 ub_out[e.uid] = dict(zip(
