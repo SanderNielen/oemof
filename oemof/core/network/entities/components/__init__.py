@@ -22,30 +22,8 @@ class Source(Component):
 
     Parameters
     ----------
-    in_max : list
-        maximum input of component (e.g. in MW)
-    out_max : list
-        maximum output of component (e.g. in MW)
-    add_out_limit : float
-        limit on additional output "capacity" (e.g. in MW)
-    capex : float
-        capital expenditure (e.g. in Euro / MW )
-    lifetime : float
-        lifetime of component (e.g. years)
-    wacc : float
-        weigted average cost of capital (dimensionless)
-    crf : float
-        capital recovery factor: (p*(1+p)^n)/(((1+p)^n)-1)
-    opex_fix : float
-        fixed operational expenditure (e.g. expenses for staff)
-    opex_var : float
-        variable operational expenditure (e.g. spare parts + fuelcosts)
-    co2_fix : float
-        fixed co2 emissions (e.g. t / MW)
-    co2_var : float
-        variable co2 emissions (e.g. t / MWh)
-    co2_cap : float
-        co2 emissions due to installed power (e.g. t/ MW)
+    val : ?
+    curtail_costs : ?
     """
     optimization_options = {}
 
