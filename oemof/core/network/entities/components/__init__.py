@@ -22,7 +22,8 @@ class Source(Component):
 
     Parameters
     ----------
-    val : ?
+    val : pandas.series
+	    Time series of produced energy.
     curtail_costs : ?
     """
     optimization_options = {}
